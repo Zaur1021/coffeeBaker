@@ -1,10 +1,12 @@
-import BoxButton from "../components/BoxButton";
+import DeliveryBoxButton from "../components/DeliveryBoxButton";
+import OrderBoxButton from "../components/OrderBoxButton";
+
 import styles from "./Homepage.module.css";
 
 function Homepage() {
   return (
     <div className={styles.container}>
-      <nav className={styles.nav}>
+      <nav>
         <h1>coffeeBaker</h1>
         <h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
@@ -14,10 +16,9 @@ function Homepage() {
         </h2>
       </nav>
 
-      <section>
-        <BoxButton imgName="bhuwan-bansal-Imq-jC1zPMM-unsplash.jpg" />
-        <BoxButton imgName="bhuwan-bansal-Imq-jC1zPMM-unsplash.jpg" />
-      </section>
+      <OrderBoxButton />
+      <DeliveryBoxButton />
+
       <footer>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
         similique at placeat perferendis! Fuga rerum modi, suscipit velit quod
