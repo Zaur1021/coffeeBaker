@@ -1,30 +1,12 @@
-import DeliveryBoxButton from "../components/DeliveryBoxButton";
-import OrderBoxButton from "../components/OrderBoxButton";
-
 import styles from "./Homepage.module.css";
-
 function Homepage() {
   return (
-    <div className={styles.container}>
+    <div className={styles.homepage}>
       <nav>
+        <h3>ABOUT</h3>
         <h1>coffeeBaker</h1>
-        <hr color="black" />
-        <hr />
+        <h3>CONTACT US</h3>
       </nav>
-      <section>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          magnam vitae repellat dignissimos perferendis. Sit, quam? Cumque
-          soluta eveniet iure magni suscipit minus exercitationem unde earum,
-          ipsam possimus, consequatur libero.
-        </h2>
-      </section>
-      <div>
-        <OrderBoxButton />
-        <DeliveryBoxButton />
-      </div>
-
-      <footer>Copyright &copy; by Zaurbek Shapiev</footer>
     </div>
   );
 }

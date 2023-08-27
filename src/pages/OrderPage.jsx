@@ -1,5 +1,5 @@
 function OrderPage() {
-  return <div>Order</div>;
+  return <div>Order page</div>;
 }
 
 export default OrderPage;
