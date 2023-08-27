@@ -8,22 +8,23 @@ function Homepage() {
     <div className={styles.container}>
       <nav>
         <h1>coffeeBaker</h1>
+        <hr color="black" />
+        <hr />
+      </nav>
+      <section>
         <h2>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
           magnam vitae repellat dignissimos perferendis. Sit, quam? Cumque
           soluta eveniet iure magni suscipit minus exercitationem unde earum,
           ipsam possimus, consequatur libero.
         </h2>
-      </nav>
+      </section>
+      <div>
+        <OrderBoxButton />
+        <DeliveryBoxButton />
+      </div>
 
-      <OrderBoxButton />
-      <DeliveryBoxButton />
-
-      <footer>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-        similique at placeat perferendis! Fuga rerum modi, suscipit velit quod
-        eius eveniet officia et iste facere dolorem labore minus commodi quis?
-      </footer>
+      <footer>Copyright &copy; by Zaurbek Shapiev</footer>
     </div>
   );
 }
